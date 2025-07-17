@@ -13,3 +13,5 @@ def test_add():
 
     assert response.status_code == 200
     assert response.json()["completed"] == True
+
+    #тест прошел успешно
